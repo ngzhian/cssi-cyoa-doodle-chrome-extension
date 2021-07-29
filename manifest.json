@@ -1,0 +1,15 @@
+{
+  "name": "Doodle",
+  "version": "1.0",
+  "description": "Lets you doodle and create text boxes anywhere on a webpage.",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["p5.js", "sketch.js"]
+  }],
+  "permissions": [
+    "storage"
+  ]
+}
